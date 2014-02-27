@@ -1,1 +1,2 @@
 This is only for checking git
+Still dont think git is good.

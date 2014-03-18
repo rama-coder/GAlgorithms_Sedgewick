@@ -1,6 +1,8 @@
 GAlgorithms_Sedgewick
 =====================
 
+Algorithms Book URL : http://algs4.cs.princeton.edu/home/
+
 Atleast following likes the Algos candidates and I can get out of Telecom domain.
 
 1. Google

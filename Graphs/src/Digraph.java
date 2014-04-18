@@ -19,6 +19,10 @@ public class Digraph {
         return adj[v];
     }
 
+    public int V() {
+        return V;
+    }
+
     public String toString() {
         StringBuilder sb = new StringBuilder();
 
@@ -34,15 +38,14 @@ public class Digraph {
     public static void main(String[] args) {
         Digraph dg = new Digraph(6);
 
-        dg.addEdge(1, 2);
-        dg.addEdge(2, 3);
+        dg.addEdge(0, 2);
+        dg.addEdge(1, 3);
+        dg.addEdge(2, 4);
         dg.addEdge(3, 4);
-        dg.addEdge(4, 4);
-        dg.addEdge(4, 6);
+        dg.addEdge(4, 5);
 
         System.out.println(dg);
-
-
+        DirectedDFS dfs = new DirectedDFS(dg, 0);
     }
 
 }
